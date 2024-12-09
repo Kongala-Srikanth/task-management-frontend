@@ -131,8 +131,8 @@ const Task = () => {
 
     const onEditTodo = async () => {
 
-      const updateTodoData = {
-        task, status, description
+       const updateTodoData = {
+        title: task, status, description
       }
 
       const url = `https://task-manager-backend-utp2.onrender.com/tasks/${updateTodoId}`
